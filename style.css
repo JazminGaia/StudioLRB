@@ -29,6 +29,10 @@ footer {
     align-items: center;
     justify-content: space-evenly;
 }
+ .fotocentradas{
+    display: flex;
+   justify-content: space-between ;
+ }
 
 .inicio {
     display: inline-block;
@@ -36,16 +40,45 @@ footer {
     text-align: right;
 }
 
+.liIlustraciones {
+    font-weight: bold;
+    color: white;
+    background-image: url("imagenes/rana.jpg");
+    height: 40;
+    width: 200;
+    margin: 60px;
+    padding: 80px;
+
+}
+.lidiseño3d {
+    font-weight: bold;
+    color: white;
+    background-image: url("imagenes/esqueleto Meraxes_completo_1.png");
+    width: 550px;
+    height: 350px;
+    margin: 60px;
+    padding: 80px;
+}
+.liMeraxes {
+    font-weight: bold;
+    color: white;
+     background-image: url(imagenes/MERAXES.jpg);
+    width: 500px;
+    height: 500px;
+    margin: 60px;
+    padding: 80px;
+}
 .imgGiganotosaurus {
     width: 500px;
     margin: 3px;
     padding: 3px;
-    border: black 2px solid;
 }
 
-.textoFoto{
- margin-left: auto;
- display: block;
+
+
+.textoFoto {
+    margin-left: auto;
+    display: block;
 }
 
 .decoracion {
@@ -58,4 +91,7 @@ footer {
     width: 70px;
     height: 70px;
     border-radius: 150px;
+}
+.textoCentrado {
+    text-align:start
 }
